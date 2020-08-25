@@ -34,6 +34,7 @@ def polynomialfit(xdata, ydata):
 
 def generate_flat(wave_file):
     theo_loc = loadmat(wave_file)['P']
+    create_fits('wavelength_fitted',theo_loc)
     theo_loc = theo_loc.round(2)
     trgts = theo_loc.nonzero()
     rw,cl = trgts[0], trgts[1]
