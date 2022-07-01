@@ -3,7 +3,9 @@
 """
 Created on Tue Jun  9 14:44:14 2020
 
-@author: paras
+@author: Rishikesh Sharma
+
+This code generates the simulated CCD output spectra for a high-resolution spectrograph PARAS-2. 
 """
 
 
